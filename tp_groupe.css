@@ -1,6 +1,13 @@
 li {
+  border-left: 1px solid;
+  border-color: #E65C01;
+  border-spacing: 10px;
   list-style: none;
   display: inline-block;
+}
+
+li:first-child {
+  border: none;
 }
 
 p {
@@ -11,6 +18,13 @@ p {
 a {
   color: #E65C01;
   text-decoration: none;
+}
+
+.info {
+  font-size: 35px;
+  margin-top: 50px;
+  margin-right: 50px;
+
 }
 
 .container {
@@ -37,16 +51,18 @@ a {
   font-size: 22px;
 }
 
-.title1 {
-  background-image: url("images/images/bg-title.png");
-  background-repeat: no-repeat;
-}
-
 .title2 {
   background-image: url("images/images/bg-bloc-title.png");
   background-repeat: no-repeat;
   font: uppercase;
   font-weight: bold;
+}
+
+#bg {
+  background-image: url("images/images/bg-title.png");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  color: #FFFFFF;
 }
 
 #menu {
