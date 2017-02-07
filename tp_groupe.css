@@ -4,9 +4,8 @@ li {
 }
 
 p {
-  color: black;
   font-size: 19px;
-  color: #e65c01;
+  color: #000000;
 }
 
 a {
@@ -14,8 +13,19 @@ a {
   text-decoration: none;
 }
 
+.container {
+  margin-left: 375px;
+  margin-right: 375px;
+}
+
 .infotop {
+  background-image: url("images/images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
   float: right;
+  width: 100%;
+  height: 375px;
+  text-align: right;
 }
 
 .menublue {
@@ -28,11 +38,13 @@ a {
 }
 
 .title1 {
-  background-image: url("images/bg-title.png");
+  background-image: url("images/images/bg-title.png");
+  background-repeat: no-repeat;
 }
 
 .title2 {
-  background-image: url("images/bg-bloc-title.png");
+  background-image: url("images/images/bg-bloc-title.png");
+  background-repeat: no-repeat;
   font: uppercase;
   font-weight: bold;
 }
