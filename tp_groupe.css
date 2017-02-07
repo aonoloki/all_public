@@ -1,0 +1,80 @@
+body{
+  width: 1680px;
+  }
+
+#imgheader{
+  top: 0px;
+  width: 100%;
+}
+
+#txtheader{
+  color: #e65c01;
+  font-size: 36px;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+#footer{
+  width: 100%;
+  background-color: #e65c01;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+#menu{
+  width: 100%;
+}
+
+#menu a, .title1, .title2{
+  font-size: 22px;
+}
+
+#menu a{
+  color: #e65c01;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.menublue a{
+  color: #124495;
+}
+
+.title1, .title2{
+  color: white;
+}
+
+.title1{
+  background-image: url("images/bg-title.png");
+}
+
+.title2{
+  background-image: url("images/bg-bloc-title.png");
+  font: uppercase;
+  font-weight: bold;
+}
+
+#blueband{
+  width: 100%;
+  background-color: #194495;
+  color: white;
+}
+
+p{
+  color: black;
+  font-size: 19px;
+}
+
+p a{
+  color: #e65c01;
+}
+
+#news{
+  color: #194495;
+}
+
+#partager a{
+  background-color: #194495;
+  color: white;
+}
