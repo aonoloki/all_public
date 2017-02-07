@@ -1,12 +1,10 @@
-li {
+ol {
   list-style: none;
-  display: inline-block;
 }
 
 p {
-  color: black;
   font-size: 19px;
-  color: #e65c01;
+  color: #000000;
 }
 
 a {
@@ -14,8 +12,26 @@ a {
   text-decoration: none;
 }
 
+.info {
+  font-size: 35px;
+  margin-top: 50px;
+  margin-right: 50px;
+
+}
+
+.container {
+  margin-left: 375px;
+  margin-right: 375px;
+}
+
 .infotop {
+  background-image: url("images/images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
   float: right;
+  width: 100%;
+  height: 375px;
+  text-align: right;
 }
 
 .menublue {
@@ -27,20 +43,46 @@ a {
   font-size: 22px;
 }
 
-.title1 {
-  background-image: url("images/bg-title.png");
-}
-
 .title2 {
-  background-image: url("images/bg-bloc-title.png");
   font: uppercase;
   font-weight: bold;
+}
+
+#topmenu {
+  border-left: 1px solid;
+  border-color: #124495;
+  padding: 0 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+#topmenu:first-child {
+  border: none;
+}
+
+#botmenu {
+  list-style: none;
+  display: inline-block;
+}
+
+#bg {
+  background-image: url("images/images/bg-title.png");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  color: #FFFFFF;
+}
+
+#bg2 {
+  background-image: url("images/images/bg-bloc-title.png");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  color: #FFFFFF;
 }
 
 #menu {
   width: 100%;
   font-size: 22px;
-  color: #e65c01;
+  color: #E65C01;
   display: inline-block;
   text-align: center;
   padding: 10px;
@@ -80,4 +122,6 @@ a {
   color: white;
   font-size: 12px;
   text-align: center;
+  display: inline;
+  float: left;
 }
