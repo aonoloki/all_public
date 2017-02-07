@@ -2,29 +2,27 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>maquette.jpg</title>
+    <title>maquette</title>
     <link rel="stylesheet" href="tp_groupe.css">
     <script src="script.js"></script>
   </head>
   <body>
     <div class="infotop">
-      <div class=info><p><img src="images/images/icon-mobile.png" alt= "tel"><span style=color:#E65C01> 03.00.00.00.00 </span></p></div>
-      <div class=info><p><img src="images/images/icon-mobile.png" alt= "tel"><span style=color:#E65C01> 06.00.00.00.00 </span></p></div>
-      <div class=info><p><img src="images/images/icon-maile.png" alt= "tel"><span style=color:#E65C01> testorange </span></p></div>
+      <p class="info"><img src="images/images/icon-mobile.png" alt= "tel"><span style=color:#E65C01> 03.00.00.00.00</span></p>
+      <p class="info"><img src="images/images/icon-mobile.png" alt= "tel"><span style=color:#E65C01> 06.00.00.00.00</span></p>
+      <p class="info"><img src="images/images/icon-maile.png" alt= "mail"><span style=color:#E65C01> test@orange.fr</span></p>
     </div>
     <div id="menu">
       <ul>
-        <li><a href="accueil.html#"><span style=color:#124495>ACCUEIL</span></a></li>
-        <li><a href="formations_initiales.html#">FORMATIONS INITIALES</a></li>
-        <li><a href="formations_professionnelles.html#">FORMATIONS PROFESSIONNELLES</a></li>
-        <li><a href="securite_routiere.html#">SECURITE ROUTIERE</a></li>
-        <li><a href="autres.html#"><span style=color:#124495>AUTRES</span></a></li>
+        <li id="topmenu"><a href="accueil.html#"><span style=color:#124495>ACCUEIL</span></a></li>
+        <li id="topmenu"><a href="formations_initiales.html#">FORMATIONS INITIALES</a></li>
+        <li id="topmenu"><a href="formations_professionnelles.html#">FORMATIONS PROFESSIONNELLES</a></li>
+        <li id="topmenu"><a href="securite_routiere.html#">SECURITE ROUTIERE</a></li>
+        <li id="topmenu"><a href="autres.html#"><span style=color:#124495>AUTRES</span></a></li>
       </ul>
     </div>
-    <div class="container">
-      <div class= "title1">
-        <p>BIENVENUE</p>
-      </div>
+    <div class="container" class= "title1">
+      <p id="bg"><span style=color:#FFFFFF>BIENVENUE</span></p>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br />
         eprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, <br />
@@ -36,52 +34,50 @@
     <div id="blueband">
       <div class="bluesection">
         <div class="title2">
-          <p>infos utiles</p>
+          <p  id="bg2">INFOS UTILES</p>
         </div>
         <p>Nos véhicules</p>
-        <div id="vehicules">
-          <ul>
-            <li>2 Ferrari</li>
-            <li>1 Citroën</li>
-            <li>3 motos</li>
-            <li>1 remorque</li>
-            <li>3 125 cm3</li>
-          </ul>
+            <ol>
+              <li>2 Ferrari</li>
+              <li>1 Citroën</li>
+              <li>3 motos</li>
+              <li>1 remorque</li>
+              <li>3 125 cm3</li>
+            </ol>
         </div>
-      </div>
-      <div class="bluesection">
-        <div class="title2">
-          <p>horaires</p>
-        </div>
+        <div class="bluesection">
+          <div class="title2">
+            <p id="bg2">HORAIRES</p>
+          </div>
         <p>Anzin</p>
         <p>Valenciennes</p>
-      </div>
-      <div class="bluesection">
-        <div class="title2">
-          <p>adresse</p>
         </div>
-        <p>Ecole de conduite</p>
-        <img src="images/images/map.jpg"/>
-      </div>
+        <div class="bluesection">
+          <div class="title2">
+            <p id="bg2">ADRESSE</p>
+          </div>
+          <p>Ecole de conduite</p>
+      <img src="images/images/map.jpg"/>
     </div>
-    <div class="container">
-      <div id="news">
-        <p>Actualités</p>
-      </div>
-      <img src="images/images/img-news.jpg" alt="actualités"/>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/>
-        Découvrez comment récupérer vos points <a href="points.html">ICI</a>.</p>
+  </div>
+  <div class="container">
+    <div id="news">
+      <p>Actualités</p>
     </div>
-    <div id="footer">
-      <img src="images/images/engage.jpg" alt="logo engage"/>
-      <img src="images/images/hautdefrance.png" alt="logo hdf"/>
-      <img src="images/images/logo_pole.jpg" alt="logo pe"/>
+    <img src="images/images/img-news.jpg" alt="actualités"/>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/>
+      Découvrez comment récupérer vos points <a href="points.html"><span style=color:#124495>ICI</span></a>.</p>
+  </div>
+  <div id="footer">
+    <img src="images/images/engage.jpg" alt="logo engage"/>
+    <img src="images/images/hautdefrance.png" alt="logo hdf"/>
+    <img src="images/images/logo_pole.jpg" alt="logo pe"/>
       <ul>
-        <li><a href="jobs.html">JOBS</a></li>
-        <li><a href="mentions.html">MENTIONS LEGALES</a></li>
-        <li><a href="liens.html">LIENS UTILES</a></li>
+        <li id="botmenu"><a href="jobs.html"><span style=color:#FFFFFF>JOBS</span></a></li>
+        <li id="botmenu"><a href="ccsi.html"><span style=color:#FFFFFF>CCSI</span></a></li>
+        <li id="botmenu"><a href="mentions.html"><span style=color:#FFFFFF>MENTIONS LEGALES</span></a></li>
+        <li id="botmenu"><a href="liens.html"><span style=color:#FFFFFF>LIENS UTILES</span></a></li>
       </ul>
     </div>
-
   </body>
 </html>
