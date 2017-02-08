@@ -1,3 +1,15 @@
+head {
+  font-family: Arial;
+}
+
+body {
+  font-family: Arial;
+}
+
+footer {
+  font-family: Arial;
+}
+
 ol {
   list-style: none;
 }
@@ -20,8 +32,8 @@ a {
 }
 
 .container {
-  margin-left: 375px;
-  margin-right: 375px;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
 .infotop {
@@ -34,17 +46,33 @@ a {
   text-align: right;
 }
 
-.menublue {
-  color: #124495;
+.map {
+  opacity: 0.5;
+  border-radius: 25px,
 }
 
-.title1, .title2{
-  color: white;
-  font-size: 22px;
+.sponsor {
+  position: relative;
+  float: left;
+  opacity: 0.8;
 }
 
 .title2 {
   font: uppercase;
+  font-weight: bold;
+}
+
+.portrait {
+  float: right;
+}
+
+.bluesection {
+  background: #124496;
+}
+
+.actu {
+  color: #124495;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -61,14 +89,16 @@ a {
 }
 
 #botmenu {
+  text-align: center;
   list-style: none;
   display: inline-block;
+  margin: auto;
 }
 
 #bg {
   background-image: url("images/images/bg-title.png");
   background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 35px;
   color: #FFFFFF;
 }
 
@@ -93,6 +123,11 @@ a {
   width: 100%;
   background-color: #194495;
   color: white;
+}
+
+#info {
+  font-size: 22px;
+  color: #FFFFFF;
 }
 
 #news {
