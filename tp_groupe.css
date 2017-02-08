@@ -34,6 +34,8 @@ a {
 .container {
   margin-left: 350px;
   margin-right: 350px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px 5px #D5D5D5;
 }
 
 .infotop {
@@ -48,7 +50,7 @@ a {
 
 .map {
   opacity: 0.75;
-  border-radius: 25px,
+  border-radius: 25px;
 }
 
 .sponsor {
@@ -86,6 +88,7 @@ a {
 
 #profil {
   text-align: right;
+  margin-right: 1%;
 }
 
 #img-news {
@@ -168,8 +171,12 @@ a {
 }
 
 #partager {
+  margin-right: 5%;
   background-color: #194495;
-  color: white;
+  color: #FFFFFF;
+  float: right;
+  padding: 5px 5px;
+  border-radius: 10px;
 }
 
 #imgheader {
