@@ -17,6 +17,7 @@ ol {
 p {
   font-size: 19px;
   color: #000000;
+  margin: 5%;
 }
 
 a {
@@ -59,7 +60,7 @@ a {
 }
 
 .sponsor:first-child {
-  margin-left: 15px;
+  margin-left: 200px;
 }
 
 .title2_1, .title2_2, .title2_3 {
@@ -83,15 +84,23 @@ a {
   color: #124495;
   font-size: 22px;
   font-weight: bold;
+  padding-top: 2%;
+}
+
+.bvn {
+  padding-top: 1%;
+  margin-top: 5%;
 }
 
 #profil {
   text-align: right;
-  margin-right: 1%;
+  margin-right: 5%;
 }
 
 #img-news {
   float: left;
+  margin: 5%;
+  margin-top: 0%;
 }
 
 #news {
@@ -100,6 +109,9 @@ a {
 
 #equipe {
   text-align: right;
+  margin-top: -10%;
+  margin-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 #topmenu {
@@ -139,7 +151,7 @@ a {
 
 #txtfooter {
   margin-top: 20px;
-  margin-right: 12.5%;
+  margin-right: 22.5%;
 }
 
 #menu {
@@ -148,7 +160,7 @@ a {
   color: #E65C01;
   display: inline-block;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
   background-color: #E6E5E5;
 }
 
