@@ -62,10 +62,6 @@ a {
   font-weight: bold;
 }
 
-.portrait {
-  float: right;
-}
-
 .bluesection {
   background: #124496;
 }
@@ -100,6 +96,7 @@ a {
   background-repeat: no-repeat;
   padding-left: 35px;
   color: #FFFFFF;
+  font-weight: bold;
 }
 
 #bg2 {
